@@ -1,0 +1,14 @@
+{
+  "username": "janedoe",
+  "name": "Jane Doe",
+  "public_email": "jane.doe@example.com",
+  "bio": "Distributed systems engineer. Go, Python, cloud infrastructure.",
+  "location": "San Francisco, CA, US",
+  "blog": "https://janedoe.dev",
+  "top_languages": [
+    "Go",
+    "Python",
+    "TypeScript"
+  ],
+  "updated_at": "2026-06-29T22:00:00Z"
+}

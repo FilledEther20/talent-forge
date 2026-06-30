@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "path": "full_name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "primary_email",
+      "from": "emails.value[0]",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "phone",
+      "from": "phones.value[0]",
+      "type": "string",
+      "normalize": "E164"
+    },
+    {
+      "path": "skills",
+      "from": "skills.value",
+      "type": "string[]",
+      "normalize": "canonical"
+    },
+    {
+      "path": "headline",
+      "from": "headline.value",
+      "type": "string"
+    }
+  ],
+  "include_confidence": false,
+  "on_missing": "omit"
+}

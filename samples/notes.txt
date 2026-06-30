@@ -1,0 +1,11 @@
+Recruiter call notes — 2026-06-28
+
+Spoke with Jane Doe today. She can be reached at jane@janedoe.dev or
+on +1 415-555-9988. Currently working at Acme Corp as a Senior Engineer
+on their data platform team.
+
+Strong technical background: Go, Python, Kubernetes, PostgreSQL,
+distributed systems. Mentioned interest in staff-level roles.
+
+Based in San Francisco, open to remote. LinkedIn profile:
+https://linkedin.com/in/janedoe

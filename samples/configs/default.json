@@ -1,0 +1,72 @@
+{
+  "fields": [
+    {
+      "path": "candidate_id",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "full_name",
+      "from": "full_name.value",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "emails",
+      "from": "emails.value",
+      "type": "string[]"
+    },
+    {
+      "path": "phones",
+      "from": "phones.value",
+      "type": "string[]",
+      "normalize": "E164"
+    },
+    {
+      "path": "location",
+      "from": "location.value",
+      "type": "object"
+    },
+    {
+      "path": "links",
+      "from": "links.value",
+      "type": "object"
+    },
+    {
+      "path": "headline",
+      "from": "headline.value",
+      "type": "string"
+    },
+    {
+      "path": "years_experience",
+      "from": "years_experience.value",
+      "type": "number"
+    },
+    {
+      "path": "skills",
+      "from": "skills.value",
+      "type": "string[]",
+      "normalize": "canonical"
+    },
+    {
+      "path": "experience",
+      "from": "experience.value",
+      "type": "object[]"
+    },
+    {
+      "path": "education",
+      "from": "education.value",
+      "type": "object[]"
+    },
+    {
+      "path": "provenance",
+      "type": "object[]"
+    },
+    {
+      "path": "overall_confidence",
+      "type": "number"
+    }
+  ],
+  "include_confidence": true,
+  "on_missing": "null"
+}
