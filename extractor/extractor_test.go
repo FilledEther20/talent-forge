@@ -203,7 +203,7 @@ func TestParseLocationString(t *testing.T) {
 		t.Fatalf("unexpected location: %+v", got)
 	}
 
-	if empty := parseLocationString(""); empty == nil || empty.City != "" {
+	if empty := parseLocationString(""); empty != nil {
 		t.Fatalf("expected empty one-part location, got %+v", empty)
 	}
 }
